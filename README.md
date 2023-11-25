@@ -1,7 +1,7 @@
 # productcard
 # my name is dima
 *there is example of my code*
-***javascript
+```javascript
 class Product{
     imgLink;
     productName;
@@ -20,10 +20,9 @@ class Product{
         `
         document.body.append(container);
     }
-
-
 }
-new Product("https://kartinki.pics/uploads/posts/2022-03/thumbs/1646564796_1-kartinkin-net-p-kartinki-tsvetochkov-2.jpg", "cvetochek", 20);
 
+new Product("https://kartinki.pics/uploads/posts/2022-03/thumbs/1646564796_1-kartinkin-net-p-kartinki-tsvetochkov-2.jpg", "cvetochek", 20);
+```
 
 # poka
