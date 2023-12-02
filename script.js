@@ -9,6 +9,7 @@ class Product{
         this.productName = name;
         this.productPrice = price;
         const container = document.createElement("div");
+        container.className = "card"
         container.innerHTML = `
         <img src = "${this.imgLink}">
         <h5>${this.productName}</h5>
